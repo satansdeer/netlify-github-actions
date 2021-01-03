@@ -1451,7 +1451,7 @@
     estree-walker "^1.0.1"
     picomatch "^2.2.2"
 
-"@sentry/browser@5.29.2":
+"@sentry/browser@5.29.2", "@sentry/browser@^5.29.2":
   version "5.29.2"
   resolved "https://registry.yarnpkg.com/@sentry/browser/-/browser-5.29.2.tgz#51adb4005511b1a4a70e4571880fc6653d651f91"
   integrity sha512-uxZ7y7rp85tJll+RZtXRhXPbnFnOaxZqJEv05vJlXBtBNLQtlczV5iCtU9mZRLVHDtmZ5VVKUV8IKXntEqqDpQ==

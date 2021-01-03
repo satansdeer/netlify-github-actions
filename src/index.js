@@ -8,6 +8,7 @@ import { Integrations } from "@sentry/tracing";
 
 Sentry.init({
   dsn: "https://3b348705a543481eb61936073a9c4733@o499416.ingest.sentry.io/5577880",
+  release: process.env.REACT_APP_SENTRY_RELEASE,
   autoSessionTracking: true,
   integrations: [
     new Integrations.BrowserTracing(),

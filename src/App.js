@@ -21,7 +21,8 @@ function App() {
           Learn React
         </a>
         <hr/>
-        <button onClick={() => {throw new Error("Something went wrong")}}>Break the world</button>;
+        {/* eslint-disable-next-line no-undef */}
+        <button onClick={methodDoesNotExist}>Break the world</button>;
       </header>
     </div>
   );
