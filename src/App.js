@@ -20,6 +20,8 @@ function App() {
         >
           Learn React
         </a>
+        <hr/>
+        <button onClick={methodDoesNotExist}>Break the world</button>;
       </header>
     </div>
   );
