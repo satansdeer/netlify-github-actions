@@ -37,6 +37,7 @@ jobs:
         SENTRY_PROJECT: ${{ secrets.SENTRY_PROJECT }}
       with:
         environment: production
+        sourcemaps: ./build
     - name: Deploy to netlify
       uses: netlify/actions/cli@master
       env:
