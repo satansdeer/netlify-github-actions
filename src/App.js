@@ -21,7 +21,7 @@ function App() {
           Learn React
         </a>
         <hr/>
-        <button onClick={methodDoesNotExist}>Break the world</button>;
+        <button onClick={() => {throw new Error("Something went wrong")}}>Break the world</button>;
       </header>
     </div>
   );
